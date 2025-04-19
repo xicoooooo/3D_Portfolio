@@ -1,10 +1,10 @@
-import Testimonials from "./sections/Testimonials.jsx";
+import AboutMe from "./sections/AboutMe.jsx";
 import Footer from "./sections/Footer.jsx";
 import Contact from "./sections/Contact.jsx";
 import TechStack from "./sections/TechStack.jsx";
-import Experience from "./sections/Experience.jsx";
+import Journey from "./sections/Journey.jsx";
 import Hero from "./sections/Hero.jsx";
-import ShowcaseSection from "./sections/ShowcaseSection.jsx";
+import ShowcaseSection from "./sections/Projects.jsx";
 import LogoShowcase from "./sections/LogoShowcase.jsx";
 import FeatureCards from "./sections/FeatureCards.jsx";
 import Navbar from "./components/NavBar.jsx";
@@ -16,9 +16,9 @@ const App = () => (
     <ShowcaseSection />
     <LogoShowcase />
     <FeatureCards />
-    <Experience />
+    <Journey />
     <TechStack />
-    <Testimonials />
+    <AboutMe />
     <Contact />
     <Footer />
   </>

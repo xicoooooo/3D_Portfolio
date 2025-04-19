@@ -1,19 +1,19 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: "Projects",
+    link: "#projects",
   },
   {
-    name: "Experience",
-    link: "#experience",
+    name: "Journey",
+    link: "#journey",
   },
   {
     name: "Skills",
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "About Me",
+    link: "#aboutme",
   },
 ];
 
@@ -29,7 +29,7 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "Years of Experience" },
+  { value: 2, suffix: "+", label: "Years of Journey" },
   { value: 5, suffix: "+", label: "Completed Projects" },
   { value: 10, suffix: "+", label: "Formations Done" },
   { value: 99, suffix: "%", label: "Succession Rate" },
@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Teamwork",
+    desc: "Experienced in academic collaboration, with constant communication and shared responsibilities.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Problem Solving",
+    desc: "Able to identify obstacles and find creative solutions, both in technical projects and daily situations.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Proactivity & Organization",
+    desc: "Enjoy taking initiative, planning ahead, and staying focused on defined goals.",
   },
 ];
 
@@ -114,13 +114,13 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
@@ -145,46 +145,46 @@ const techStackIcons = [
   },
 ];
 
-const expCards = [
+const journeyCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
+    review: "Francisco has shown consistent dedication and growth throughout his academic journey. His proactive approach to learning and teamwork has been remarkable.",
+    imgPath: "/images/journey1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+    title: "Computer Engineering Student",
+    date: "September 2023 - Present",
+    keyActivities: [
+      "Studying software engineering fundamentals, including data structures, algorithms, and web development.",
+      "Developing projects using Kotlin, Compose Desktop, MongoDB, and web technologies (HTML, CSS, JavaScript).",
+      "Collaborating with peers on team-based assignments and project presentations.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    review: "Francisco's contribution to social impact activities demonstrates empathy, organization, and a strong sense of responsibility.",
+    imgPath: "/images/journey2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+    title: "Volunteer -> ReFood & Food Bank",
+    date: "2022 - 2023",
+    keyActivities: [
+      "Organized and distributed food to families in need.",
+      "Participated in logistics and donation drives with local teams.",
+      "Engaged with community members, ensuring support with empathy and care.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    review: "Throughout his high school years, Francisco built a strong foundation in science and technology, complemented by his enthusiasm for learning and team spirit.",
+    imgPath: "/images/journey3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+    title: "Science & Technology Student",
+    date: "September 2017 - June 2023",
+    keyActivities: [
+      "Completed secondary education with focus on Mathematics, Biology, and English.",
+      "Participated in school activities that fostered collaboration and responsibility.",
+      "Developed early interest in computing and problem-solving.",
     ],
   },
 ];
 
-const expLogos = [
+const journeyLogos = [
   {
     name: "logo1",
     imgPath: "/images/logo1.png",
@@ -268,8 +268,8 @@ export {
   abilities,
   logoIconsList,
   counterItems,
-  expCards,
-  expLogos,
+  journeyCards,
+  journeyLogos,
   testimonials,
   socialImgs,
   techStackIcons,
