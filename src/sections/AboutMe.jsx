@@ -1,4 +1,4 @@
-import { testimonials } from "../constants/index.js";
+import { aboutMe } from "../constants/index.js";
 import TitleHeader from "../components/TitleHeader.jsx";
 import GlowCard from "../components/GlowCard.jsx";
 
@@ -12,14 +12,14 @@ const AboutMe = () => {
         />
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
-          {testimonials.map((testimonial, index) => (
+          {aboutMe.map((testimonial, index) => (
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
-                <div>
-                  <img src={testimonial.imgPath} alt="" />
+                <div className="w-12 h-12 rounded-full overflow-hidden">
+                  <img src={testimonial.imgPath} alt="" className="object-cover w-full h-full"/>
                 </div>
                 <div>
-                  <p className="font-bold">{testimonial.name}</p>
+                  <p className="font-bold">{testimonial.title}</p>
                   <p className="text-white-50">{testimonial.mentions}</p>
                 </div>
               </div>

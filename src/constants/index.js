@@ -126,13 +126,13 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Backend",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Interactive",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
@@ -154,7 +154,7 @@ const journeyCards = [
     date: "September 2023 - Present",
     keyActivities: [
       "Studying software engineering fundamentals, including data structures, algorithms, and web development.",
-      "Developing projects using Kotlin, Compose Desktop, MongoDB, and web technologies (HTML, CSS, JavaScript).",
+      "Developing projects using Kotlin, Compose Desktop, MongoDB, and web technologies (HTML, CSS, JavaScript, React).",
       "Collaborating with peers on team-based assignments and project presentations.",
     ],
   },
@@ -162,7 +162,7 @@ const journeyCards = [
     review: "Francisco's contribution to social impact activities demonstrates empathy, organization, and a strong sense of responsibility.",
     imgPath: "/images/journey2.png",
     logoPath: "/images/logo2.png",
-    title: "Volunteer -> ReFood & Food Bank",
+    title: "Volunteer >> ReFood & Food Bank",
     date: "2022 - 2023",
     keyActivities: [
       "Organized and distributed food to families in need.",
@@ -199,48 +199,48 @@ const journeyLogos = [
   },
 ];
 
-const testimonials = [
+const aboutMe = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+    title: "Nature & Adventure Lover",
+    mentions: "Adaptability · Community Awareness",
+    fact:
+      "I've always felt connected to nature. I love outdoor activities, and I have years of experience with family camping and music festivals which taught me a lot about logistics, patience, and community.",
+    imgPath: "/images/nature.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    title: "Tech with a Purpose",
+    mentions: "Problem Solving · Collabs · Creativity",
+    fact:
+        "I'm currently studying Computer Engineering at ISEL. I enjoy creating software that solves real problems, especially when it involves teamwork, creativity, and helping others.",
+    imgPath: "/images/techenvironmental.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+    title: "Team Sports Taught Me a Lot",
+    mentions: "Discipline · Teamwork · Resilience",
+    fact:
+        "I've been playing padel competitively since I was 10. It taught me discipline, handling pressure, and above all, how to grow alongside others as a team.",
+    imgPath: "/images/teamwork.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+    title: "Always Helping Where I Can",
+    mentions: "Empathy · Initiative · Responsibility",
+    fact:
+      "From volunteering with ReFood and the Food Bank to supporting my peers in academic projects, I thrive when I can be useful to others and make a difference.",
+    imgPath: "/images/responsibility.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+    title: "Driven by Curiosity",
+    mentions: "Curiosity · Mindset · Communication",
+    fact:
+      "I love learning, not just in tech, but in languages, communication, and even things like how places work behind the scenes. That’s why I enjoy both the classroom and hands-on environments.",
+    imgPath: "/images/organization.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    title: "Organized but Flexible",
+    mentions: "Organization · Flexibility · Proactivity",
+    fact:
+      "I enjoy planning and staying organized, but I’m also very adaptable. I can shift gears quickly, whether it’s during a group project or while helping out in dynamic environments like events or cafés.",
+    imgPath: "/images/organization.png",
   },
 ];
 
@@ -248,18 +248,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    href: "https://www.instagram.com/francisco.bdias",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    href: "https://www.facebook.com/profile.php?id=100007387214789",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    href: "https://x.com/franciscobdias_",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    href: "https://www.linkedin.com/in/francisco-dias-78bb13205/",
   },
 ];
 
@@ -270,7 +274,7 @@ export {
   counterItems,
   journeyCards,
   journeyLogos,
-  testimonials,
+  aboutMe,
   socialImgs,
   techStackIcons,
   techStackImgs,

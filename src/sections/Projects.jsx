@@ -63,20 +63,20 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png" // change to the expense tracker app (when done)
-                  alt="Expense Tracker App"
+                  src="/images/project2.png"
+                  alt="Second App (AI Interview App?)"
                 />
               </div>
-              <h2>The Expense Tracker App</h2>
+              <h2>Second App (AI Interview App?)</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img
-                    src="/images/project3.png" //// change to the pomodoro timer app (when done)
-                     alt="Pomodoro Timer" />
+                    src="/images/project3.png"
+                     alt="Third App (Timer / ToDo / Chatbot App?)" />
               </div>
-              <h2>Pomodoro Timer</h2>
+              <h2>Third App (Timer / ToDo / Chatbot App?)r</h2>
             </div>
           </div>
         </div>

@@ -39,8 +39,8 @@ const TechStack = () => {
     <div id="skills" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
-          title="How I Can Help & My Some of My Skills"
-          sub="🤝 What can I Bring to the Table"
+          title="Some of My Skills"
+          sub="🤝 How can I Help"
         />
         <div className="tech-grid">
           {/* Loop through the techStackIcons array and create a component for each item. 
