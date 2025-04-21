@@ -147,7 +147,7 @@ const techStackIcons = [
 
 const journeyCards = [
   {
-    review: "Francisco has shown consistent dedication and growth throughout his academic journey. His proactive approach to learning and teamwork has been remarkable.",
+    fact: "Francisco has shown consistent dedication and growth throughout his academic journey. His proactive approach to learning and teamwork has been remarkable.",
     imgPath: "/images/journey1.png",
     logoPath: "/images/logo1.png",
     title: "Computer Engineering Student",
@@ -159,7 +159,7 @@ const journeyCards = [
     ],
   },
   {
-    review: "Francisco's contribution to social impact activities demonstrates empathy, organization, and a strong sense of responsibility.",
+    fact: "Francisco's contribution to social impact activities demonstrates empathy, organization, and a strong sense of responsibility.",
     imgPath: "/images/journey2.png",
     logoPath: "/images/logo2.png",
     title: "Volunteer >> ReFood & Food Bank",
@@ -171,7 +171,7 @@ const journeyCards = [
     ],
   },
   {
-    review: "Throughout his high school years, Francisco built a strong foundation in science and technology, complemented by his enthusiasm for learning and team spirit.",
+    fact: "Throughout his high school years, Francisco built a strong foundation in science and technology, complemented by his enthusiasm for learning and team spirit.",
     imgPath: "/images/journey3.png",
     logoPath: "/images/logo3.png",
     title: "Science & Technology Student",
