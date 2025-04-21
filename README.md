@@ -1,4 +1,4 @@
-# 🚀 Francisco Dias Portfolio
+# 🚀 Francisco Dias' 3D Portfolio
 
 Welcome to my personal portfolio! This project showcases my skills, experiences, and projects as a **React Developer**, **Python Developer**, and more. Built with **React** and **Vite**, it’s designed to be fast, responsive, and visually engaging.
 
@@ -47,8 +47,6 @@ src/
 
 ---
 
----
-
 ## 🧑‍💻 How It Works
 
 This portfolio is designed to provide a seamless and interactive experience for visitors. Here's how it works:
@@ -57,8 +55,6 @@ This portfolio is designed to provide a seamless and interactive experience for 
 2. **3D Models**: `.glb` files are used to create interactive 3D visuals, adding a modern and engaging touch.
 3. **Responsive Design**: The layout adapts to different screen sizes, ensuring a great experience on both desktop and mobile devices.
 4. **Animations**: Smooth animations and hover effects enhance the user experience, making the portfolio visually appealing.
-
----
 
 ---
 
@@ -108,6 +104,6 @@ Contributions are welcome! If you'd like to contribute:
 If you have any questions or feedback, feel free to reach out:
 
 - **Email**: francisco.dias@example.com
-- **Portfolio**: [Francisco Dias Portfolio](https://your-portfolio-link.com)
+- **Portfolio**: [Francisco Dias](https://3d-portfolio-jet-xi.vercel.app/)
 
 ---
