@@ -61,13 +61,14 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div className="xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl py-0 bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Second App (AI Interview App?)"
+                  alt="Daily Voice Recorder"
+                  className="w-full h-full object-cover rounded-xl"
                 />
               </div>
-              <h2>Second App (AI Interview App?)</h2>
+              <h2>Simple and intuitive voice recorder</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -76,7 +77,7 @@ const AppShowcase = () => {
                     src="/images/project3.png"
                      alt="Third App (Timer / ToDo / Chatbot App?)" />
               </div>
-              <h2>Third App (Timer / ToDo / Chatbot App?)r</h2>
+              <h2>Third App (Timer / ToDo / Chatbot App?)</h2>
             </div>
           </div>
         </div>
