@@ -29,8 +29,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "Years of Journey" },
-  { value: 5, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "+", label: "Years of Journey" },
+  { value: 8, suffix: "+", label: "Completed Projects" },
   { value: 10, suffix: "+", label: "Formations Done" },
   { value: 99, suffix: "%", label: "Succession Rate" },
 ];
