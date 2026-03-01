@@ -103,7 +103,7 @@ Contributions are welcome! If you'd like to contribute:
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: francisco.dias@example.com
+- **Email**: fargaodias@gmail.com
 - **Portfolio**: [Francisco Dias](https://3d-portfolio-jet-xi.vercel.app/)
 
 ---
