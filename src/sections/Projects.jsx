@@ -63,21 +63,33 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl py-0 bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Daily Voice Recorder"
-                  className="w-full h-full object-cover rounded-xl"
+                    src="/images/project2.png"
+                    alt="Daily Voice Recorder"
+                    className="w-full h-full object-cover rounded-xl"
                 />
               </div>
-              <h2>Simple and intuitive voice recorder</h2>
+              <h2>Simple and Intuitive Voice Recorder</h2>
+              <div className="text-content">
+                <p className="text-white-50 md:text-xl mt-4">
+                  Record your thoughts and ideas on the go with a clean, easy-to-use interface. Perfect for daily notes, reminders, and quick audio memos.
+                </p>
+              </div>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
+              <div className="xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl py-0 bg-[#FFE7EB]">
                 <img
                     src="/images/project3.png"
-                     alt="Third App (Timer / ToDo / Chatbot App?)" />
+                    alt="Hélder & Susana Lda (H&S Lda)"
+                    className="w-full h-full object-cover rounded-xl"
+                />
               </div>
-              <h2>Third App (Timer / ToDo / Chatbot App?)</h2>
+              <h2>Website for Hélder & Susana Lda.</h2>
+              <div className="text-content">
+                <p className="text-white-50 md:text-xl mt-4">
+                  A fully custom website developed for Hélder & Susana Lda, an auto repair shop in Viseu. Designed and built from scratch to showcase their services and facilitate customer contact.
+                </p>
+              </div>
             </div>
           </div>
         </div>
