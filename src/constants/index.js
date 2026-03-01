@@ -88,30 +88,6 @@ const abilities = [
     desc: "Enjoy taking initiative, planning ahead, and staying focused on defined goals.",
   },
 ];
-
-const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
-];
-
 const techStackIcons = [
   {
     name: "React",
@@ -183,22 +159,6 @@ const journeyCards = [
     ],
   },
 ];
-
-const journeyLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
-];
-
 const aboutMe = [
   {
     title: "Nature & Adventure Lover",
@@ -233,7 +193,7 @@ const aboutMe = [
     mentions: "Curiosity · Mindset · Communication",
     fact:
       "I love learning, not just in tech, but in languages, communication, and even things like how places work behind the scenes. That’s why I enjoy both the classroom and hands-on environments.",
-    imgPath: "/images/organization.png",
+    imgPath: "/images/curiosity.png",
   },
   {
     title: "Organized but Flexible",
@@ -273,10 +233,8 @@ export {
   logoIconsList,
   counterItems,
   journeyCards,
-  journeyLogos,
   aboutMe,
   socialImgs,
   techStackIcons,
-  techStackImgs,
   navLinks,
 };
